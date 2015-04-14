@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/init.ibox.rc:root/init.ibox.rc \
     $(LOCAL_PATH)/init.usb.rc:root/init.usb.rc \
     $(LOCAL_PATH)/fstab.ibox:root/fstab.ibox \
+    $(LOCAL_PATH)/Generic.kl:system/usr/keylayout/Generic.kl \
     $(PRODUCT_COPY_FILES)
 
 DEVICE_PACKAGE_OVERLAYS := device/x86/ibox/overlay
